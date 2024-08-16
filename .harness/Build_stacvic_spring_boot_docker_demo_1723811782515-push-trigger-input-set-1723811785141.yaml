@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_stacvic_spring_boot_docker_demo_1723811782515-push-trigger-input-set
+  identifier: Build_stacvic_spring_boot_docker_demo_1723811782515pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_stacvic_spring_boot_docker_demo_1723811782515
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
